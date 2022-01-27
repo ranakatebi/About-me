@@ -4,7 +4,7 @@
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
-.about-paragraphs  {
+.about-paragraphs {
   margin: 50px 80px;
   font-family: cursive;
   opacity: 0.7;
@@ -14,7 +14,6 @@ p {
 }
 .paragraph {
   text-align: center;
-
 }
 
 h1 {
@@ -114,4 +113,15 @@ img.women-emoji {
   background: var(--first-color);
   box-shadow: var(--box-shadow);
   color: black;
+}
+
+@media (max-width: 576px) {
+  p {
+    text-align: center;
+  }
+  .primary-link {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
 }
