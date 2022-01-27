@@ -4,13 +4,17 @@
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
-.about-paragraphs {
+.about-paragraphs  {
   margin: 50px 80px;
   font-family: cursive;
   opacity: 0.7;
 }
 p {
   text-align: justify;
+}
+.paragraph {
+  text-align: center;
+
 }
 
 h1 {
@@ -83,7 +87,7 @@ a.nav-link.text-hover:hover {
   box-shadow: var(--box-shadow);
   color: black;
 }
-a:hover{
+a:hover {
   color: grey;
 }
 
