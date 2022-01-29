@@ -2,6 +2,8 @@
   --first-color: #f5f2fe;
   --second-color: #a2a2ee;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  --heading-font-family: "Playfair Display", serif;
+  --default-font-family: "Poppins", sans-serif;
 }
 
 .about-paragraphs {
@@ -66,26 +68,7 @@ a.nav-link.text-hover:hover {
   justify-content: center;
 }
 
-.about,
-.contact {
-  margin: 20px;
-  border-radius: 4px;
-  padding: 20px 15px;
-  text-decoration: none;
-  border: 1px solid grey;
-}
 
-.contact {
-  background-color: var(--first-color);
-  box-shadow: var(--box-shadow);
-  color: black;
-}
-
-.about {
-  background-color: var(--second-color);
-  box-shadow: var(--box-shadow);
-  color: black;
-}
 a:hover {
   color: grey;
 }
@@ -133,4 +116,52 @@ img.women-emoji {
     margin: 0 auto;
     text-align: center;
   }
+}
+.hero {
+  background: #F9F7FE;
+  text-align: center;
+  padding: 160px 20px;
+}
+
+div {
+  display: block;
+}
+
+body {
+  margin: 0;
+  font-family: var(--bs-font-sans-serif);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+}
+.btn-branding {
+  background: var(--second-color);
+  border-radius: 4px;
+  color: white;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+  font-family: var( --default-font-family);
+}
+h1, h2, h3, h4, h5, h6 {
+    color: black;
+    font-family: var(--heading-font-family);
+    font-weight: bold;
+}
+.hero p {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0;
+    color: #272142;
+    text-align: center;
+}
+.hero h2 {
+    font-family: var(--heading-font-family);
+    font-weight: normal;
+    line-height: 2;
+    font-size: 24px;
 }
